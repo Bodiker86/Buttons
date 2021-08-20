@@ -1,0 +1,22 @@
+
+
+#first {
+    background-color:silver;
+    height: 50px;
+    width: 100%;
+}
+
+button {
+    background-color:yellow;
+    height: 35px;
+    width: 80px;
+    margin-top: 3px;
+    margin: 8px;
+}
+
+.blue.some {
+    background-color: blue;
+}
+.red {
+    background-color: red;
+}
