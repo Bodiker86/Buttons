@@ -1,5 +1,6 @@
 const btns = document.querySelectorAll('button');
-
+      wrapper = document.querySelector('.btn-block');
+    
 // // console.log(btns[0].classList.length);
 // console.log(btns[1].classList.add('red'));
 // // console.log(btns[0].classList.remove('blue'));
@@ -17,4 +18,10 @@ btns[0].addEventListener('click', () => {
     //     btns[1].classList.remove('red');
     // }
     btns[1].classList.toggle('red');
+});
+
+// console.log(btns[0].className);
+
+wrapper.addEventListener('click', (event) => {
+    if (event.target)
 });
