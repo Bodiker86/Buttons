@@ -23,5 +23,18 @@ btns[0].addEventListener('click', () => {
 // console.log(btns[0].className);
 
 wrapper.addEventListener('click', (event) => {
-    if (event.target)
+    if (event.target && event.target.matches("button.red")) {
+        console.log('Hello');
+    }
 });
+
+
+// btns.forEach(btn => {
+//     btn.addEventListener ('click', () => {
+//         console.log('Hello');
+//     });
+// });
+
+const btn = document.createElement('button');
+btn.classList.add('red');
+wrapper.append(btn);
